@@ -2,6 +2,13 @@
 
 Tool for runtime execution of node applications using Javascript.
 
+## Running
+
+This repository is PRECOMPILED
+
+	./iojs --version
+
+
 ## Naming
 
 	io.js		Software
@@ -28,6 +35,7 @@ Tool for runtime execution of node applications using Javascript.
 
 
 	cd /path/to/iojs
+	tar -xvf iojs-3.3.1.tar.gz
 	./configure
 	make	
 	make check
@@ -202,6 +210,7 @@ as `deps/icu` (You'll have: `deps/icu/source/...`)
 
 ```text
 > vcbuild full-icu
+```
 
 ### FIPS-compliant OpenSSL
 
